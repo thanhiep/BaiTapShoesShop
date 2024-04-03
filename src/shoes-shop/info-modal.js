@@ -40,6 +40,10 @@ export default class InfoModal extends Component {
                                 <tr></tr>
                             </thead>
                             <tbody>
+                            <tr>
+                                    <th>Mã</th>
+                                    <td>{shoesDetail?.id}</td>
+                                </tr>
                                 <tr>
                                     <th>Tên</th>
                                     <td>{shoesDetail?.name}</td>
